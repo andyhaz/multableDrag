@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97EEE0D62BAF3454008F2B0F /* multableDragApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEE0D52BAF3454008F2B0F /* multableDragApp.swift */; };
+		97EEE0D82BAF3454008F2B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEE0D72BAF3454008F2B0F /* ContentView.swift */; };
+		97EEE0DA2BAF3457008F2B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EEE0D92BAF3457008F2B0F /* Assets.xcassets */; };
+		97EEE0DD2BAF3457008F2B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EEE0DC2BAF3457008F2B0F /* Preview Assets.xcassets */; };
+		97EEE0E82BAF3457008F2B0F /* multableDragTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEE0E72BAF3457008F2B0F /* multableDragTests.swift */; };
+		97EEE0F22BAF3457008F2B0F /* multableDragUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEE0F12BAF3457008F2B0F /* multableDragUITests.swift */; };
+		97EEE0F42BAF3457008F2B0F /* multableDragUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EEE0F32BAF3457008F2B0F /* multableDragUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EEE0E42BAF3457008F2B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EEE0CA2BAF3454008F2B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EEE0D12BAF3454008F2B0F;
+			remoteInfo = multableDrag;
+		};
+		97EEE0EE2BAF3457008F2B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EEE0CA2BAF3454008F2B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EEE0D12BAF3454008F2B0F;
+			remoteInfo = multableDrag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97EEE0D22BAF3454008F2B0F /* multableDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multableDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EEE0D52BAF3454008F2B0F /* multableDragApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multableDragApp.swift; sourceTree = "<group>"; };
+		97EEE0D72BAF3454008F2B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97EEE0D92BAF3457008F2B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EEE0DC2BAF3457008F2B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97EEE0DE2BAF3457008F2B0F /* multableDrag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = multableDrag.entitlements; sourceTree = "<group>"; };
+		97EEE0E32BAF3457008F2B0F /* multableDragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multableDragTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EEE0E72BAF3457008F2B0F /* multableDragTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multableDragTests.swift; sourceTree = "<group>"; };
+		97EEE0ED2BAF3457008F2B0F /* multableDragUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multableDragUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EEE0F12BAF3457008F2B0F /* multableDragUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multableDragUITests.swift; sourceTree = "<group>"; };
+		97EEE0F32BAF3457008F2B0F /* multableDragUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multableDragUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97EEE0CF2BAF3454008F2B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEE0E02BAF3457008F2B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEE0EA2BAF3457008F2B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EEE0C92BAF3454008F2B0F = {
+			isa = PBXGroup;
+			children = (
+				97EEE0D42BAF3454008F2B0F /* multableDrag */,
+				97EEE0E62BAF3457008F2B0F /* multableDragTests */,
+				97EEE0F02BAF3457008F2B0F /* multableDragUITests */,
+				97EEE0D32BAF3454008F2B0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97EEE0D32BAF3454008F2B0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EEE0D22BAF3454008F2B0F /* multableDrag.app */,
+				97EEE0E32BAF3457008F2B0F /* multableDragTests.xctest */,
+				97EEE0ED2BAF3457008F2B0F /* multableDragUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EEE0D42BAF3454008F2B0F /* multableDrag */ = {
+			isa = PBXGroup;
+			children = (
+				97EEE0D52BAF3454008F2B0F /* multableDragApp.swift */,
+				97EEE0D72BAF3454008F2B0F /* ContentView.swift */,
+				97EEE0D92BAF3457008F2B0F /* Assets.xcassets */,
+				97EEE0DE2BAF3457008F2B0F /* multableDrag.entitlements */,
+				97EEE0DB2BAF3457008F2B0F /* Preview Content */,
+			);
+			path = multableDrag;
+			sourceTree = "<group>";
+		};
+		97EEE0DB2BAF3457008F2B0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97EEE0DC2BAF3457008F2B0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97EEE0E62BAF3457008F2B0F /* multableDragTests */ = {
+			isa = PBXGroup;
+			children = (
+				97EEE0E72BAF3457008F2B0F /* multableDragTests.swift */,
+			);
+			path = multableDragTests;
+			sourceTree = "<group>";
+		};
+		97EEE0F02BAF3457008F2B0F /* multableDragUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97EEE0F12BAF3457008F2B0F /* multableDragUITests.swift */,
+				97EEE0F32BAF3457008F2B0F /* multableDragUITestsLaunchTests.swift */,
+			);
+			path = multableDragUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97EEE0D12BAF3454008F2B0F /* multableDrag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EEE0F72BAF3457008F2B0F /* Build configuration list for PBXNativeTarget "multableDrag" */;
+			buildPhases = (
+				97EEE0CE2BAF3454008F2B0F /* Sources */,
+				97EEE0CF2BAF3454008F2B0F /* Frameworks */,
+				97EEE0D02BAF3454008F2B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multableDrag;
+			productName = multableDrag;
+			productReference = 97EEE0D22BAF3454008F2B0F /* multableDrag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EEE0E22BAF3457008F2B0F /* multableDragTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EEE0FA2BAF3457008F2B0F /* Build configuration list for PBXNativeTarget "multableDragTests" */;
+			buildPhases = (
+				97EEE0DF2BAF3457008F2B0F /* Sources */,
+				97EEE0E02BAF3457008F2B0F /* Frameworks */,
+				97EEE0E12BAF3457008F2B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EEE0E52BAF3457008F2B0F /* PBXTargetDependency */,
+			);
+			name = multableDragTests;
+			productName = multableDragTests;
+			productReference = 97EEE0E32BAF3457008F2B0F /* multableDragTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97EEE0EC2BAF3457008F2B0F /* multableDragUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EEE0FD2BAF3457008F2B0F /* Build configuration list for PBXNativeTarget "multableDragUITests" */;
+			buildPhases = (
+				97EEE0E92BAF3457008F2B0F /* Sources */,
+				97EEE0EA2BAF3457008F2B0F /* Frameworks */,
+				97EEE0EB2BAF3457008F2B0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EEE0EF2BAF3457008F2B0F /* PBXTargetDependency */,
+			);
+			name = multableDragUITests;
+			productName = multableDragUITests;
+			productReference = 97EEE0ED2BAF3457008F2B0F /* multableDragUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97EEE0CA2BAF3454008F2B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					97EEE0D12BAF3454008F2B0F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					97EEE0E22BAF3457008F2B0F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 97EEE0D12BAF3454008F2B0F;
+					};
+					97EEE0EC2BAF3457008F2B0F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 97EEE0D12BAF3454008F2B0F;
+					};
+				};
+			};
+			buildConfigurationList = 97EEE0CD2BAF3454008F2B0F /* Build configuration list for PBXProject "multableDrag" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97EEE0C92BAF3454008F2B0F;
+			productRefGroup = 97EEE0D32BAF3454008F2B0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EEE0D12BAF3454008F2B0F /* multableDrag */,
+				97EEE0E22BAF3457008F2B0F /* multableDragTests */,
+				97EEE0EC2BAF3457008F2B0F /* multableDragUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97EEE0D02BAF3454008F2B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EEE0DD2BAF3457008F2B0F /* Preview Assets.xcassets in Resources */,
+				97EEE0DA2BAF3457008F2B0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEE0E12BAF3457008F2B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEE0EB2BAF3457008F2B0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97EEE0CE2BAF3454008F2B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EEE0D82BAF3454008F2B0F /* ContentView.swift in Sources */,
+				97EEE0D62BAF3454008F2B0F /* multableDragApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEE0DF2BAF3457008F2B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EEE0E82BAF3457008F2B0F /* multableDragTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EEE0E92BAF3457008F2B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EEE0F42BAF3457008F2B0F /* multableDragUITestsLaunchTests.swift in Sources */,
+				97EEE0F22BAF3457008F2B0F /* multableDragUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EEE0E52BAF3457008F2B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EEE0D12BAF3454008F2B0F /* multableDrag */;
+			targetProxy = 97EEE0E42BAF3457008F2B0F /* PBXContainerItemProxy */;
+		};
+		97EEE0EF2BAF3457008F2B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EEE0D12BAF3454008F2B0F /* multableDrag */;
+			targetProxy = 97EEE0EE2BAF3457008F2B0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97EEE0F52BAF3457008F2B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97EEE0F62BAF3457008F2B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		97EEE0F82BAF3457008F2B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = multableDrag/multableDrag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"multableDrag/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.multableDrag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97EEE0F92BAF3457008F2B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = multableDrag/multableDrag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"multableDrag/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.multableDrag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		97EEE0FB2BAF3457008F2B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.multableDragTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multableDrag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multableDrag";
+			};
+			name = Debug;
+		};
+		97EEE0FC2BAF3457008F2B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.multableDragTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multableDrag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/multableDrag";
+			};
+			name = Release;
+		};
+		97EEE0FE2BAF3457008F2B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.multableDragUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = multableDrag;
+			};
+			name = Debug;
+		};
+		97EEE0FF2BAF3457008F2B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QPZTLEJ7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamerocketstudio.multableDragUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = multableDrag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97EEE0CD2BAF3454008F2B0F /* Build configuration list for PBXProject "multableDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EEE0F52BAF3457008F2B0F /* Debug */,
+				97EEE0F62BAF3457008F2B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EEE0F72BAF3457008F2B0F /* Build configuration list for PBXNativeTarget "multableDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EEE0F82BAF3457008F2B0F /* Debug */,
+				97EEE0F92BAF3457008F2B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EEE0FA2BAF3457008F2B0F /* Build configuration list for PBXNativeTarget "multableDragTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EEE0FB2BAF3457008F2B0F /* Debug */,
+				97EEE0FC2BAF3457008F2B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EEE0FD2BAF3457008F2B0F /* Build configuration list for PBXNativeTarget "multableDragUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EEE0FE2BAF3457008F2B0F /* Debug */,
+				97EEE0FF2BAF3457008F2B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97EEE0CA2BAF3454008F2B0F /* Project object */;
+}
