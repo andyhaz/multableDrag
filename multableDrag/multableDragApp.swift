@@ -11,7 +11,7 @@ import SwiftUI
 struct multableDragApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DraggableShapeView()
         }
     }
 }
